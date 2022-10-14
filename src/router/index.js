@@ -4,13 +4,13 @@ import FertigePcs from "@/pages/FertigePcs.vue";
 import PcSelberKonfigurieren from "@/pages/PcSelberKonfigurieren.vue";
 import UebersichtCpuKompabilitaet from "@/pages/UebersichtCpuKompabilitaet.vue";
 import PcKonfigurator from "@/pages/PcKonfigurator";
+import login from "@/pages/login";
 
 
 const router = createRouter({
-    //optionen
+
     history: createWebHistory(),
     routes: [
-
         {
             path: "/",
             component: PcKonfigurator,
@@ -29,6 +29,11 @@ const router = createRouter({
         {
             path: "/UebersichtCpuKompabilitaet",
             component: UebersichtCpuKompabilitaet,
+        },
+        {
+            path: "/Login",
+            component: login,
+            name:'loginForm'
         },
     ]
 });

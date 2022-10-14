@@ -5,7 +5,7 @@
   <div class="collapse navbar-collapse" id="navBarNav">
   <ul class="navbar-nav">
     <li class="nav-item active">
-    <a href="#"  class="nav-link">Login</a>
+      <a href="/Login"  class="nav-link">Login</a>
     </li>
     <li class="nav-item active">
       <a href="#"  class="nav-link">Register</a>
@@ -20,6 +20,8 @@
 
 export default {
   name: "TheNavbar",
+  components: {},
+
 };
 
 </script>
