@@ -10,7 +10,7 @@
             <router-link to="/PcSelberKonfigurieren"  class="nav-link">PC selber konfigurieren</router-link>
           </li>
           <li class="nav-item active">
-            <router-link to="/UebersichtCpuKompabilitaet"  class="nav-link">Übersicht CPU Kompabilität </router-link>
+            <router-link to="/UebersichtCpuKompabilitaet"  class="nav-link pl-0" >Übersicht CPU Kompabilität </router-link>
           </li>
         </ul>
       </div>

@@ -5,6 +5,7 @@ import PcSelberKonfigurieren from "@/pages/PcSelberKonfigurieren.vue";
 import UebersichtCpuKompabilitaet from "@/pages/UebersichtCpuKompabilitaet.vue";
 import PcKonfigurator from "@/pages/PcKonfigurator";
 import login from "@/pages/login";
+import register from "@/pages/register";
 
 
 const router = createRouter({
@@ -34,6 +35,11 @@ const router = createRouter({
             path: "/Login",
             component: login,
             name:'loginForm'
+        },
+        {
+            path: "/register",
+            component: register,
+            name:'registrieren'
         },
     ]
 });
